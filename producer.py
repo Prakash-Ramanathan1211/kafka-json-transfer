@@ -27,6 +27,6 @@ if __name__ == '__main__':
 
     data = get_json()
 
-    producer.send("altair-data-services",data)
+    producer.send("prash-data-services",data)
 
     time.sleep(3)

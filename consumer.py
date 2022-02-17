@@ -12,7 +12,7 @@ def store_data(json_data):
 if __name__ == '__main__':
 
     consumer = KafkaConsumer(
-        'altair-data-services',
+        'prash-data-services',
         bootstrap_servers=['localhost:9092'],
         auto_offset_reset='smallest',
         enable_auto_commit=True,
